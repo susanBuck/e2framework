@@ -1,15 +1,17 @@
 <?php
 namespace App\Controllers;
 
-class AppController
+class AppController extends Controller
 {
+    /**
+     *
+     */
     public function index()
     {
-        return 'Welcome to my application!';
-    }
-
-    public function contact()
-    {
-        return 'Contact us at support@myapp.com';
+        $welcomes = ['Welcome', 'Aloha!', 'Welkom', 'Bienvenidos', 'Bienvenu', 'Welkomma'];
+        
+        return $this->app->view('index', [
+            'welcome' => $welcomes[array_rand($welcomes)]
+        ]);
     }
 }

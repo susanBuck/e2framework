@@ -9,14 +9,7 @@ define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT'].'/../');
 require DOC_ROOT.'/vendor/autoload.php';
 
 # Initialize App object
-$app = new E2Framework\App();
-
-# Load config
-
-var_dump($app->getConfig('app.timezone'));
-
-# Set config(s)
-//date_default_timezone_set($app->config->app->timezone);
+$app = new \E2\App();
 
 # Invoke router
 echo $app->route();
