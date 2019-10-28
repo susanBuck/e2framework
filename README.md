@@ -5,7 +5,5 @@
 
 The goal of this software is to provide students an introduction to working with more advanced PHP frameworks such as Laravel and/or Symfony.
 
-
-
-
-
++ Documentation: <https://github.com/susanBuck/e2framework/wiki>
++ Guide: <https://hesweb.dev/e2/notes#/php/frameworks/intro>
