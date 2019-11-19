@@ -2,7 +2,7 @@
 
 @section('title')
     {{ $welcome }}
-@stop
+@endsection
 
 @section('content')
     

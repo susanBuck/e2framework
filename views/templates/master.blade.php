@@ -3,7 +3,10 @@
 <head>
 
     <title>@yield('title', $app->config('app.name'))</title>
+
     <meta charset='utf-8'>
+
+    <link rel='shortcut icon' href='/favicon.ico'>
 
     <link href='/css/app.css' rel='stylesheet'>
 
@@ -20,9 +23,6 @@
 <main>
     @yield('content')
 </main>
-
-<footer>
-</footer>
 
 @yield('body')
 
