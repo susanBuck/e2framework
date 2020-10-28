@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Controller
 {
-    private $app;
+    protected $app;
     
     public function __construct($app)
     {
