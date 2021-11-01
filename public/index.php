@@ -1,6 +1,6 @@
 <?php
 # This is the main controller
-# The .htaccess file routes through here
+# All traffic should route through here
 
 # Define constants
 define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT'].'/../');
