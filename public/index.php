@@ -9,7 +9,7 @@ define('DOC_ROOT', $_SERVER['DOCUMENT_ROOT'].'/../');
 require DOC_ROOT.'/vendor/autoload.php';
 
 # Initialize App object
-$app = new \E2\App();
+$app = new E2\App();
 
 # Invoke router
 echo $app->route();
