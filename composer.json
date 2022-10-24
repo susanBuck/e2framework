@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "susanbuck/e2core": "^0.1.0"
+        "susanbuck/e2core": "^0.1"
     },
     "autoload": {
         "psr-4": {
@@ -15,5 +15,10 @@
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
