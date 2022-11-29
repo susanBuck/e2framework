@@ -3,8 +3,15 @@
     "description": "DGMD E-2 Framework Application",
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/Susan/Sites/hes/e2core"
+        }
+    ],
     "require": {
-        "susanbuck/e2core": "^0.1.0"
+        "susanbuck/e2core": "@dev",
+        "fakerphp/faker": "^1.20"
     },
     "autoload": {
         "psr-4": {

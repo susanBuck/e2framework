@@ -14,4 +14,12 @@ class AppController extends Controller
             'welcome' => $welcomes[array_rand($welcomes)]
         ]);
     }
+
+    /**
+     *
+     */
+    public function foobar()
+    {
+        return $this->app->view('foobar', ['foo' => 'bar']);
+    }
 }
